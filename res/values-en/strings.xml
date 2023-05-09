@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="0X001_APPLICATION_NAME">Metro Controller</string>
+	<string name="0X002_CRASH_TOAST_DESCRIPTION">Ooooops! Application felt sick, a report as been sent for further investigation.</string>
+	<string name="0X003_REPORT">Report</string>
+	<string name="0X003_METRO_REPORT">On metro report</string>
+	<string name="0X003_BUS_REPORT">On bus report</string>
+	<string name="0X003_TRAIN_REPORT">On train report</string>
+	<string name="metro_controller_metro">METRO</string>
+	<string name="0X004_PRESS_HERE_DESCRIPTION">Press to Start</string>
+	<string name="0X005_REPORTED_AT_DESCRIPTION">Reported at station </string>
+	<string name="metro_controller_controller">CONTROLLER</string>
+	<string name="TERMS_OF_SERVICE">By using this application you thereby agree the Terms of Use. Press here to read.</string>
+	<item type="id" name="s_a" />
+	<item type="id" name="s_b" />
+	<item type="id" name="s_c" />
+	<item type="id" name="s_d" />
+	<item type="id" name="s_e" />
+	<item type="id" name="s_f" />
+</resources>

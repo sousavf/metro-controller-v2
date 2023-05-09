@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+    <TextView
+        android:id="@+id/textAgreement"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="
+        Termos de Uso\n
+        Metro Controller\n\n
+        Introdução\n\n
+
+		As condições e termos gerais detalhados abaixo, regem as relações
+		contratuais entre o Utilizador (adiante referido como Você) e criador
+		da aplicação &apos;Metro Controller&apos; (adiante referida como Produtor) e
+		ambas as partes aceitam estas condições sem reservas. Estas condições
+		gerais são as únicas aplicáveis e substituem todas e quaisquer
+		condições, excepto se previa e expressamente dispensadas por escrito.
+		O Produtor assume que, ao confirmar o download da aplicação no Android
+		Market, você aceita sem reservas as condições gerais impostas,
+		independentemente se foi, ou não, alvo de leitura por Você. Estas
+		condições e termos gerais são importantes para si e para o Produtor,
+		uma vez que foram concebidas para proteger os seus direitos como
+		cliente e para proteger o direito do Produtor, assim como promover o
+		entendimento entre as partes.\n\n
+
+		Responsabilidade\n\n
+
+		O Programador não assumirá qualquer responsabilidade pelo uso indevido
+		e eventuais consequências que tenha no produto adquirido a partir do
+		Android Market. Este produto foi concebido para efeitos de
+		aprendizagem da API (Application Programming Interface) da ©Google
+		para dispositivos Android, e não incentiva de qualquer forma ao uso
+		indevido de fuga às taxas legais impostas pelo Metro do Porto.\n\n
+
+		Proteção de dados pessoais\n\n
+
+		As unicas informações que são guardadas no servidor encontram-se
+		modificadas por um algoritmo de dispersão, nomeadamente SHA-256, e
+		esta informação sofre a encriptação antes de saír do dispositivo, onde
+		posteriormente é guardada no servidor. Esta informação é
+		exclusivamente usada pela aplicação, não sendo divulgada a terceiros.
+		A aplicação não tem qualquer tipo de afiliação com nenhuma empresa.\n\n\n
+		
+Media by: Gintare H., Developed by: Vasco S." />
+
+    </ScrollView>
+</LinearLayout>

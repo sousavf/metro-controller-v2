@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/BackgroundLayer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/textview_controller"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/metro_controller_metro"
+        android:textSize="44.5sp"
+        android:textStyle="bold" />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/textview_botao"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top|center_horizontal"
+        android:paddingTop="70px"
+        android:text="@string/metro_controller_controller"
+        android:textSize="44.5sp"
+        android:textStyle="bold" />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/textview_agree"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="10px"
+        android:text="@string/agreement"
+        android:textSize="14.5sp" />
+
+    <FrameLayout
+        android:id="@+id/ContentLayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dip" >
+
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/press_here"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:text="@string/press_here"
+            android:textSize="16.5sp" />
+        <ImageView
+            android:id="@+id/botao_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="150px"
+            android:maxWidth="150px"
+            android:src="@drawable/ic_botao_inicio" />
+
+        <TableLayout
+            android:id="@+id/ContentTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <!--
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/UsernameTVRow">
+				<TextView android:id="@+id/UsernameTV"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/username"></TextView>
+			</TableRow>
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/UsernameTBRow">
+				<EditText android:layout_height="wrap_content"
+					android:id="@+id/UsernameTB" android:layout_width="match_parent"></EditText>
+			</TableRow>
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/PasswordTVRow">
+				<TextView android:id="@+id/PasswordTV"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/password"></TextView>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/PasswordTBRow">
+				<EditText android:layout_height="wrap_content"
+					android:id="@+id/PasswordTB" android:layout_width="match_parent"></EditText>
+			</TableRow>
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/AutoLoginCBRow">
+				<CheckBox android:text="@string/autologin"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:id="@+id/AutoLoginCB"></CheckBox>
+			</TableRow>
+            -->
+
+            <TableRow
+                android:id="@+id/NavBarRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <!--
+				<Button android:layout_width="80dip" android:layout_height="wrap_content"
+					android:id="@+id/LoginB" android:text="@string/login"></Button>
+				<Button android:layout_width="80dip" android:layout_height="wrap_content"
+					android:id="@+id/RegisterB" android:text="@string/register"></Button>
+				<Button android:layout_width="80dip" android:layout_height="wrap_content"
+					android:id="@+id/SkipB" android:text="@string/skip"></Button>
+                -->
+            </TableRow>
+        </TableLayout>
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="metro.controller" android:versionCode="21" android:versionName="2.0.1">
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-sdk android:minSdkVersion="10" />
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name" android:name="MetroControllerMainApp">
+		<activity android:name=".MetroController" />
+		<activity android:name=".BusController" />
+		<activity android:name=".TrainController" />
+		<activity android:name="metro.controller.activities.MetroHistoryActivity" />
+		<activity android:name="metro.controller.activities.BusHistoryActivity" />
+		<activity android:name="metro.controller.activities.TrainHistoryActivity" />
+		<activity android:name="metro.controller.activities.ReportActivity" />
+		<activity android:name="metro.controller.activities.PreferencesActivity" />
+		<activity android:name="metro.controller.activities.RegisterActivity" />
+		<activity android:name="metro.controller.activities.AgreementActivity" />
+		<activity android:name=".EntranceActivity" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>

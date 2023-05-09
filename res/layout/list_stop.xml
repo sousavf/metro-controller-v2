@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:padding="10px">
+	<TextView android:id="@+id/toptext" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textSize="15sp" />
+	<ImageView android:id="@+id/stop_f" android:padding="0px"
+		android:src="@drawable/f" android:adjustViewBounds="true"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:maxWidth="20px" android:maxHeight="20px"
+		android:layout_alignParentRight="true" />
+	<ImageView android:id="@+id/stop_e" android:padding="0px"
+		android:src="@drawable/e" android:adjustViewBounds="true"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:maxWidth="20px" android:maxHeight="20px"
+		android:layout_toLeftOf="@+id/stop_f" />
+	<ImageView android:id="@+id/stop_d" android:padding="0px"
+		android:src="@drawable/d" android:adjustViewBounds="true"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:maxWidth="20px" android:maxHeight="20px"
+		android:layout_toLeftOf="@+id/stop_e" />
+	<ImageView android:id="@+id/stop_c" android:padding="0px"
+		android:src="@drawable/c" android:adjustViewBounds="true"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:maxWidth="20px" android:maxHeight="20px"
+		android:layout_toLeftOf="@+id/stop_d" />
+	<ImageView android:id="@+id/stop_b" android:padding="0px"
+		android:src="@drawable/b" android:adjustViewBounds="true"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:maxWidth="20px" android:maxHeight="20px"
+		android:layout_toLeftOf="@+id/stop_c" />
+	<ImageView android:id="@+id/stop_a" android:padding="0px"
+		android:src="@drawable/a" android:adjustViewBounds="true"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:maxWidth="20px" android:maxHeight="20px"
+		android:layout_toLeftOf="@+id/stop_b" />
+	
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/BackgroundLayer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/BackgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/metrobg" >
+    </ImageView>
+
+    <FrameLayout
+        android:id="@+id/ContentLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dip" >
+
+        <TableLayout
+            android:id="@+id/ContentTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        </TableLayout>
+    </FrameLayout>
+
+</FrameLayout>

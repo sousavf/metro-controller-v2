@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory>
+		<ListPreference android:title="Language"
+			android:summary="Choose application language." android:key="langPref"
+			android:entries="@array/langArray" android:entryValues="@array/langValArray" />
+		<ListPreference android:title="Current city."
+			android:summary="Choose the current city." android:key="cityPref"
+			android:entries="@array/cityArray" android:entryValues="@array/cityValArray" />
+	</PreferenceCategory>
+</PreferenceScreen>
